@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
@@ -121,9 +124,11 @@
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1j7FKYnunuCke5XhJtW1FxhI8sS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,6 +145,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\Laravel\auth-project\resources\views" />
+      <recent name="D:\Proyectos\Laravel\auth-project\resources\views\auth" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -162,6 +173,8 @@
       <workItem from="1605128588090" duration="799000" />
       <workItem from="1605186647275" duration="1654000" />
       <workItem from="1605817646182" duration="777000" />
+      <workItem from="1606348497841" duration="736000" />
+      <workItem from="1606353520379" duration="4180000" />
     </task>
     <servers />
   </component>
@@ -173,6 +186,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1060" y="460" key="FileChooserDialogImpl/0.0.2560.1410/-1920.460.1920.1080@0.0.2560.1410" timestamp="1605224326269" />
+    <state x="1114" y="628" key="NewPhpFileDialog" timestamp="1606358149903">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1114" y="628" key="NewPhpFileDialog/0.0.2560.1410/-1920.357.1920.1080@0.0.2560.1410" timestamp="1606358149903" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1605187013348">
       <screen x="-1920" y="460" width="1920" height="1080" />
     </state>
