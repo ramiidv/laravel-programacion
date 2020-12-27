@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea35c684-72f5-4a53-8c22-0f4d2fe429ad" name="Default Changelist" comment="" />
+    <list default="true" id="ea35c684-72f5-4a53-8c22-0f4d2fe429ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +177,10 @@
       <workItem from="1605186647275" duration="1654000" />
       <workItem from="1605817646182" duration="777000" />
       <workItem from="1606348497841" duration="736000" />
-      <workItem from="1606353520379" duration="4180000" />
+      <workItem from="1606353520379" duration="4954000" />
+      <workItem from="1607025483680" duration="379000" />
+      <workItem from="1607740867728" duration="40000" />
+      <workItem from="1609098644945" duration="667000" />
     </task>
     <servers />
   </component>
@@ -182,6 +188,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2692" y="618" key="#Deployment" timestamp="1609098714524">
+      <screen x="2560" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2692" y="618" key="#Deployment/9.-2160.1280.710/2560.0.1080.1920/0.0.2560.1410@2560.0.1080.1920" timestamp="1609098714524" />
     <state x="1060" y="460" key="FileChooserDialogImpl" timestamp="1605224326269">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
