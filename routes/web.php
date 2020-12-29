@@ -17,7 +17,7 @@ use App\Http\Controllers\PostController;
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 
 Route::get('/about', [App\Http\Controllers\PagesController::class,'about'])->name('About');
 
@@ -29,13 +29,14 @@ Route::get('', [App\Http\Controllers\PagesController::class,'index'])->name('ind
 
 Route::get('/posts', [App\Http\Controllers\PostController::class,'index']);
 
-Route::post('/posts/create', [App\Http\Controllers\PostController::class,'store']);
+Route::post('/posts/create', [App\Http\Controllers\PostController::class,'store'])->middleware('auth');
 
-Route::get('/posts/create', [App\Http\Controllers\PostController::class,'create']);
+Route::get('/posts/create', [App\Http\Controllers\PostController::class,'create'])->name("create")->middleware('auth');
 
-Route::get('/posts/{id}', [App\Http\Controllers\PostController::class,'show']);
+Route::get('/posts/{id}', [App\Http\Controllers\PostController::class,'show'])->name("show");
 
-Route::get('/posts/{id}', [App\Http\Controllers\PostController::class,'edit']);
+Route::delete('/posts/{id}', [App\Http\Controllers\PostController::class,'destroy'])->middleware('auth');
 
-Route::get('/posts/{id}', [App\Http\Controllers\PostController::class,'destroy']);
+Route::get('/posts/{id}', [App\Http\Controllers\PostController::class,'edit'])->middleware('auth');
+
 

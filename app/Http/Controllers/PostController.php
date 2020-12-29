@@ -51,7 +51,7 @@ class PostController extends Controller
         $post->titulo = request('genero');
         $post->titulo = request('imagen');
 
-        return redirect("/posts")->with("menaje", "Pelicula agregada con exito!");
+        return redirect("/index")->with("mensaje", "Pelicula agregada con exito!");
     }
 
     /**
@@ -97,6 +97,7 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::findorfail($id);
+        $post->delete();
     }
 }

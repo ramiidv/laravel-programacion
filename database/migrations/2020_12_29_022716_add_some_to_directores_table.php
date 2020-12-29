@@ -14,7 +14,7 @@ class AddSomeToDirectoresTable extends Migration
     public function up()
     {
         Schema::table('directores', function (Blueprint $table) {
-            //
+            $table->string('nombre');
         });
     }
 
@@ -26,7 +26,7 @@ class AddSomeToDirectoresTable extends Migration
     public function down()
     {
         Schema::table('directores', function (Blueprint $table) {
-            //
+            $table->dropColumn("nombre");
         });
     }
 }

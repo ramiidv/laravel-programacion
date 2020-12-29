@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddSomeToPostsTable extends Migration
+class AddSome2ToPostsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,9 +14,9 @@ class AddSomeToPostsTable extends Migration
     public function up()
     {
         Schema::table('posts', function (Blueprint $table) {
-            $table->string('titulo');
-            $table->integer("anio");
-            $table->string("imagen");
+            $table->foreignId('iddirector')->constrained('directores');
+            $table->foreignId('idgenero')->constrained('generos');
+
         });
     }
 
@@ -28,9 +28,9 @@ class AddSomeToPostsTable extends Migration
     public function down()
     {
         Schema::table('posts', function (Blueprint $table) {
-            $table->dropColumn("titulo");
-            $table->dropColumn("anio");
-            $table->dropColumn("imagen");
+            $table->dropColumn("iddirector");
+            $table->dropColumn("idgenero");
+
         });
     }
 }

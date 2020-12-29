@@ -14,7 +14,7 @@ class AddSomeToGenerosTable extends Migration
     public function up()
     {
         Schema::table('generos', function (Blueprint $table) {
-            //
+            $table->string('nombre');
         });
     }
 
@@ -26,7 +26,7 @@ class AddSomeToGenerosTable extends Migration
     public function down()
     {
         Schema::table('generos', function (Blueprint $table) {
-            //
+            $table->dropColumn("nombre");
         });
     }
 }

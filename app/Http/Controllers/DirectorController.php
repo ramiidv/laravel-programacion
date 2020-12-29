@@ -9,7 +9,7 @@ class DirectorController extends Controller
 {
     public function show($id)
     {
-        $directores = Director::find($id);
+        $directores = Director::findorfail($id);
         return view('posts.show', ["directores" => $directores]);
     }
 }

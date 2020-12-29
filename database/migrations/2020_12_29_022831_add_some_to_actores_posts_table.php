@@ -14,7 +14,8 @@ class AddSomeToActoresPostsTable extends Migration
     public function up()
     {
         Schema::table('actores_posts', function (Blueprint $table) {
-            //
+            $table->foreignId('idactor')->constrained('actores');
+            $table->foreignId('idposts')->constrained('posts');
         });
     }
 
@@ -26,7 +27,8 @@ class AddSomeToActoresPostsTable extends Migration
     public function down()
     {
         Schema::table('actores_posts', function (Blueprint $table) {
-            //
+            $table->dropColumn("idactor");
+            $table->dropColumn("idposts");
         });
     }
 }

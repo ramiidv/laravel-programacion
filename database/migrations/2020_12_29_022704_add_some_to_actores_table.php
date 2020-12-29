@@ -14,7 +14,7 @@ class AddSomeToActoresTable extends Migration
     public function up()
     {
         Schema::table('actores', function (Blueprint $table) {
-            //
+            $table->string('nombre');
         });
     }
 
@@ -26,7 +26,7 @@ class AddSomeToActoresTable extends Migration
     public function down()
     {
         Schema::table('actores', function (Blueprint $table) {
-            //
+            $table->dropColumn("nombre");
         });
     }
 }

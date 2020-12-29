@@ -21,12 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ea35c684-72f5-4a53-8c22-0f4d2fe429ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DirectorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DirectorController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_26_020942_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_26_020942_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_014607_add_some_to_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_014607_add_some_to_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_022704_add_some_to_actores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_022704_add_some_to_actores_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_022716_add_some_to_directores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_022716_add_some_to_directores_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_022728_add_some_to_generos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_022728_add_some_to_generos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_022831_add_some_to_actores_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_022831_add_some_to_actores_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +226,9 @@
       <workItem from="1609211430843" duration="1777000" />
       <workItem from="1609213485192" duration="1612000" />
       <workItem from="1609220678511" duration="1795000" />
-      <workItem from="1609222487602" duration="409000" />
+      <workItem from="1609222487602" duration="1795000" />
+      <workItem from="1609224300497" duration="1794000" />
+      <workItem from="1609226109259" duration="1254000" />
     </task>
     <servers />
   </component>
@@ -266,10 +274,10 @@
       <screen x="-1920" y="460" width="1920" height="1080" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.2560.1410/-1920.460.1920.1080@-1920.460.1920.1080" timestamp="1605187013348" />
-    <state x="881" y="78" width="1479" height="1497" key="dock-window-1" timestamp="1609222896929">
+    <state x="816" y="65" width="1479" height="1497" key="dock-window-1" timestamp="1609227268314">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="881" y="78" width="1479" height="1497" key="dock-window-1/0.0.2560.1410/9.-2160.1280.720/2560.0.1080.1920@2560.0.1080.1920" timestamp="1609222896929" />
+    <state x="816" y="65" width="1479" height="1497" key="dock-window-1/0.0.2560.1410/9.-2160.1280.720/2560.0.1080.1920@2560.0.1080.1920" timestamp="1609227268314" />
     <state x="2958" y="432" width="672" height="924" key="search.everywhere.popup" timestamp="1609105312616">
       <screen x="2560" y="0" width="1080" height="1920" />
     </state>
