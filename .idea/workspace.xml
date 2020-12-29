@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea35c684-72f5-4a53-8c22-0f4d2fe429ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_26_020942_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_26_020942_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,10 +171,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Template Data Languages" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\Laravel\auth-project\resources\views\posts" />
       <recent name="D:\Proyectos\Laravel\auth-project\resources\views" />
       <recent name="D:\Proyectos\Laravel\auth-project\resources\views\auth" />
     </key>
@@ -181,32 +207,73 @@
       <workItem from="1607025483680" duration="379000" />
       <workItem from="1607740867728" duration="40000" />
       <workItem from="1609098644945" duration="667000" />
+      <workItem from="1609104049061" duration="11383000" />
+      <workItem from="1609118873754" duration="599000" />
+      <workItem from="1609121027179" duration="1779000" />
+      <workItem from="1609123503844" duration="559000" />
+      <workItem from="1609197454431" duration="3716000" />
+      <workItem from="1609201191339" duration="2731000" />
+      <workItem from="1609203939730" duration="1878000" />
+      <workItem from="1609205835850" duration="1795000" />
+      <workItem from="1609207684736" duration="1880000" />
+      <workItem from="1609209580100" duration="920000" />
+      <workItem from="1609211430843" duration="1777000" />
+      <workItem from="1609213485192" duration="1612000" />
+      <workItem from="1609220678511" duration="1795000" />
+      <workItem from="1609222487602" duration="409000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2692" y="618" key="#Deployment" timestamp="1609098714524">
       <screen x="2560" y="0" width="1080" height="1920" />
     </state>
     <state x="2692" y="618" key="#Deployment/9.-2160.1280.710/2560.0.1080.1920/0.0.2560.1410@2560.0.1080.1920" timestamp="1609098714524" />
-    <state x="1060" y="460" key="FileChooserDialogImpl" timestamp="1605224326269">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="2830" y="715" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609212043425">
+      <screen x="2560" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2830" y="715" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1410/9.-2160.1280.720/2560.0.1080.1920@2560.0.1080.1920" timestamp="1609212043425" />
+    <state x="3007" y="626" key="FileChooserDialogImpl" timestamp="1609105258337">
+      <screen x="2560" y="0" width="1080" height="1920" />
     </state>
     <state x="1060" y="460" key="FileChooserDialogImpl/0.0.2560.1410/-1920.460.1920.1080@0.0.2560.1410" timestamp="1605224326269" />
-    <state x="1114" y="628" key="NewPhpFileDialog" timestamp="1606358149903">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="3007" y="626" key="FileChooserDialogImpl/9.-2160.1280.710/2560.0.1080.1920/0.0.2560.1410@2560.0.1080.1920" timestamp="1609105258337" />
+    <state x="3140" y="858" key="NewPhpFileDialog" timestamp="1609211888060">
+      <screen x="2560" y="0" width="1080" height="1920" />
     </state>
     <state x="1114" y="628" key="NewPhpFileDialog/0.0.2560.1410/-1920.357.1920.1080@0.0.2560.1410" timestamp="1606358149903" />
+    <state x="3140" y="858" key="NewPhpFileDialog/0.0.2560.1410/9.-2160.1280.720/2560.0.1080.1920@2560.0.1080.1920" timestamp="1609211888060" />
+    <state x="2601" y="605" key="SettingsEditor" timestamp="1609105301615">
+      <screen x="2560" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2601" y="605" key="SettingsEditor/9.-2160.1280.710/2560.0.1080.1920/0.0.2560.1410@2560.0.1080.1920" timestamp="1609105301615" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1605187013348">
       <screen x="-1920" y="460" width="1920" height="1080" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.2560.1410/-1920.460.1920.1080@-1920.460.1920.1080" timestamp="1605187013348" />
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1605817742654">
+    <state x="881" y="78" width="1479" height="1497" key="dock-window-1" timestamp="1609222896929">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state x="881" y="78" width="1479" height="1497" key="dock-window-1/0.0.2560.1410/9.-2160.1280.720/2560.0.1080.1920@2560.0.1080.1920" timestamp="1609222896929" />
+    <state x="2958" y="432" width="672" height="924" key="search.everywhere.popup" timestamp="1609105312616">
+      <screen x="2560" y="0" width="1080" height="1920" />
+    </state>
     <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/-1920.357.1920.1080@0.0.2560.1410" timestamp="1605817742654" />
+    <state x="2958" y="432" width="672" height="924" key="search.everywhere.popup/9.-2160.1280.710/2560.0.1080.1920/0.0.2560.1410@2560.0.1080.1920" timestamp="1609105312616" />
   </component>
 </project>

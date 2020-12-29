@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Post;
 
 use Illuminate\Http\Request;
 
@@ -13,7 +14,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('posts');
+        $posts = Post::all();
+        return view('posts.index', ["posts" => $posts]);
     }
 
     /**
@@ -23,7 +25,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('posts.create');
     }
 
     /**
@@ -34,7 +36,22 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        error_log(request('titulo'));
+        error_log(request('anio'));
+        error_log(request('director'));
+        error_log(request('actor'));
+        error_log(request('genero'));
+        error_log(request('imagen'));
+
+        $post = new Post();
+        $post->titulo = request('titulo');
+        $post->titulo = request('anio');
+        $post->titulo = request('director');
+        $post->titulo = request('actor');
+        $post->titulo = request('genero');
+        $post->titulo = request('imagen');
+
+        return redirect("/posts")->with("menaje", "Pelicula agregada con exito!");
     }
 
     /**
@@ -45,7 +62,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('posts.show', ["id" => $id]);
     }
 
     /**
@@ -56,7 +73,8 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('posts.edit', ["id" => $id]);
+
     }
 
     /**
