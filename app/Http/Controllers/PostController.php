@@ -51,7 +51,7 @@ class PostController extends Controller
         $post->titulo = request('genero');
         $post->titulo = request('imagen');
 
-        return redirect("/index")->with("mensaje", "Pelicula agregada con exito!");
+        return redirect("/posts")->with("mensaje", "Pelicula agregada con exito!");
     }
 
     /**
